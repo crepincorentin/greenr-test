@@ -1,0 +1,41 @@
+// Buttons
+
+.white-btn{
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid $secondary-color;
+    gap: 8px;
+    font-size: 16px;
+    color: $secondary-color;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+    background-color: transparent;
+
+    @media(max-width: $breakpoint){
+        width: 100%;
+    }
+}
+
+.green-btn{
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid $tertiary-color;
+    gap: 8px;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+    background-color: $tertiary-color;
+}
+
+.portefeuille-btn{
+    padding: 0px 10px 0px 10px;
+    height: 44px;
+    border-radius: 8px;
+    gap: 8px;
+    background-color: transparent;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}

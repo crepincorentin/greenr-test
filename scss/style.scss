@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import '../scss/utils/palette.scss';
+@import '../scss/components/navbar.scss';
+@import '../scss/components/button.scss';
+@import '../scss/components/slider.scss';
+@import '../scss/parts/hometop.scss';
+@import '../scss/parts/homemiddle.scss';
+@import '../scss/parts/homebottom.scss';
+@import '../scss/components/footer.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+    font-family: 'Work Sans', serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}

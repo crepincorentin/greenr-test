@@ -1,0 +1,87 @@
+// Footer
+
+.footer{
+    padding: 64px 64px 32px 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: rgba(31, 31, 31, 1);
+
+    @media(max-width: $breakpoint){
+        padding: 64px 24px 32px 24px
+    }
+
+    a{
+        color: rgba(212, 212, 212, 1);
+        font-weight: 400;
+    }
+
+    &-content{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 0px 32px 0px;
+
+        @media (max-width: $breakpoint){
+            flex-direction: column;
+            gap: 48px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &-text{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            @media(max-width: $breakpoint){
+                text-align: center;
+            }
+            
+            a{
+                font-size: 18px;
+            }
+
+            h4{
+                font-size: 16px;
+                font-weight: 600;
+                color: rgba(231, 249, 234, 1);
+            }
+        }
+    }
+
+    &-divider{
+        border-top: 1px solid rgba(64, 64, 64, 1);
+    }
+
+    &-contact{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media(max-width: $breakpoint){
+            flex-direction: column;
+            gap: 48px;
+        }
+
+        &-text{
+            display: flex;
+            gap: 16px;
+            font-size: 16px;
+
+            @media(max-width: $breakpoint){
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+        &-divider{
+            border-left: 1px solid rgba(64, 64, 64, 1);
+        }
+
+        &-social{
+            display: flex;
+            gap: 20px;
+        }
+    }
+}
